@@ -25,7 +25,7 @@ defaultContentLanguageInSubdir = false
   organization_url = "http://www.deepmind.com"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "loic.matthey@gmail.com"
+  email = "loic@matthey.me"
   address = "London"
   office_hours = ""
   phone = ""
@@ -127,7 +127,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:loic.matthey+web@gmail.com"
+    link = "mailto:loic@matthey.me"
 
   [[params.social]]
     icon = "twitter"
@@ -162,7 +162,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications"
+  url = "#publications_selected"
   weight = 2
 
 # [[menu.main]]
