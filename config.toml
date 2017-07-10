@@ -1,4 +1,4 @@
-baseurl = "https://www.azhag.net/"  # End your URL with a `/` trailing slash.
+baseurl = "http://www.matthey.me/"  # End your URL with a `/` trailing slash.
 title = "Loic Matthey"
 copyright = "&copy; 2017 Loic Matthey"
 theme = "academic"
@@ -20,13 +20,13 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Loic Matthey"
-  role = "Research Scientist / Computational Neuroscientist"
-  organization = "DeepMind"
+  role = "Research Scientist in ML / Computational Neuroscientist"
+  organization = "Google DeepMind"
   organization_url = "http://www.deepmind.com"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "loic.matthey@gmail.com"
-  address = ""
+  address = "London"
   office_hours = ""
   phone = ""
   skype = ""
@@ -102,7 +102,8 @@ defaultContentLanguageInSubdir = false
     'Work in progress',  # 3
     'Technical report',  # 4
     'Book',  # 5
-    'Book chapter'  # 6
+    'Book chapter',  # 6
+    'Dataset', # 7
   ]
 
   # Social/Academic Networking
@@ -159,10 +160,10 @@ defaultContentLanguageInSubdir = false
   url = "#about"
   weight = 1
 
-# [[menu.main]]
-#   name = "Publications"
-#   url = "#publications_selected"
-#   weight = 2
+[[menu.main]]
+  name = "Publications"
+  url = "#publications"
+  weight = 2
 
 # [[menu.main]]
 #   name = "Projects"
