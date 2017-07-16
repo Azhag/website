@@ -104,6 +104,7 @@ defaultContentLanguageInSubdir = false
     'Book',  # 5
     'Book chapter',  # 6
     'Dataset', # 7
+    'arXiv', # 8
   ]
 
   # Social/Academic Networking
